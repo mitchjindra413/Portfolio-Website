@@ -11,7 +11,7 @@ function initMap() {
         "</div>" +
         '<h1 id="firstHeading" class="firstHeading">Lincoln, Nebraska</h1>' +
         '<div id="bodyContent">' +
-        "<p>Born and raised in Nebraska. Graduated from the University of Nebraska - Lincoln in May 2020 with a degree in International Business." +
+        "<p>Born and raised in Nebraska. I graduated from the University of Nebraska - Lincoln in May 2020 with a degree in International Business." +
         ".</p>" +
         "</div>" +
         "</div>";
@@ -55,7 +55,7 @@ function initMap() {
         "</div>" +
         '<h1 id="firstHeading" class="firstHeading">Seoul, South Korea</h1>' +
         '<div id="bodyContent">' +
-        "<p>Born and raised in Nebraska " +
+        "<p>Comming out of university, I knew I wanted to expand my skills in interacting " +
         ".</p>" +
         "</div>" +
         "</div>";
