@@ -44,7 +44,7 @@ function initMap() {
         "</div>" +
         '<h1 id="firstHeading" class="firstHeading">London, United Kingdom</h1>' +
         '<div id="bodyContent">' +
-        "<p>Born and raised in Nebraska " +
+        "<p> " +
         ".</p>" +
         "</div>" +
         "</div>";
