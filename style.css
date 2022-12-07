@@ -186,6 +186,17 @@ header.p-section {
   padding-bottom: 20px;
 }
 
-#firstHeading {
-  font-size: 40px;
+#content{
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.firstHeading {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.recomendationsHeading {
+  font-size: 20px;
 }
