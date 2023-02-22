@@ -14,7 +14,7 @@ function initMap() {
         '<ul class="recomendations">' +
         "<li>Attend a Huskers football game</li>" +
         "<li>Visit the Henry Doorly Zoo</li>" +
-        "<li>Sky watch as a thunder storm rolls in/li>" +
+        "<li>Sky watch as a thunder storm rolls in</li>" +
         "</ul>" +
         "</div>" +
         "</div>"
