@@ -75,12 +75,21 @@ function initMap() {
         "</div>" +
         "</div>"
 
+    const tutoria =
+        '<div id="content">' +
+        '<h1 class="firstHeading">New York, NY</h1>' +
+        '<div id="bodyContent">' +
+        "<p>Recently, I have been volunteering at an edTech non-profit, Tutoria.io. Tutoria connects volunteer teachers with students wanting to improve their English skills or to prepare for the US citizenship test. As a former teacher and someone who is passionate about providing people tools to improve their lives, it has been immensely rewarding to provide my skills as a Software Engineer to improve the site.</p>" +
+        "</div>" +
+        "</div>"
+
     const markers = [
         [40.81378318143027, -96.69350519577529, 'Lincoln', './img/corn.png', neb],
         [37.78415497496759, -122.41401683003, 'San Francisco', './img/sf.png', sf],
         [51.51488717404907, -0.16452135455793698, 'London', './img/guard.png', uk],
         [35.61245631055736, 139.55384898812062, 'Tokyo', './img/tokyo-tower_1f5fc.png', tokyo],
-        [37.59231728567572, 126.70598350328325, 'Seoul', './img/cup.png', korea]
+        [37.59231728567572, 126.70598350328325, 'Seoul', './img/cup.png', korea],
+        [40.712776, -74.005974, 'New York', './img/statue-of-liberty.png', tutoria]
     ]
 
     markers.forEach(place => {
