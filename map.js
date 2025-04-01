@@ -79,7 +79,15 @@ function initMap() {
         '<div id="content">' +
         '<h1 class="firstHeading">New York, NY</h1>' +
         '<div id="bodyContent">' +
-        "<p>Recently, I have been volunteering at an edTech non-profit, Tutoria.io. Tutoria connects volunteer teachers with students wanting to improve their English skills or to prepare for the US citizenship test. As a former teacher and someone who is passionate about providing people tools to improve their lives, it has been immensely rewarding to provide my skills as a Software Engineer to improve the site.</p>" +
+        "<p>Tutoria connects volunteer teachers with students wanting to improve their English skills or to prepare for the US citizenship test. As a former teacher and someone who is passionate about providing people tools to improve their lives, it has been immensely rewarding to provide my skills as a Software Engineer to improve the site.</p>" +
+        "</div>" +
+        "</div>"
+
+    const smoothstack =
+        '<div id="content">' +
+        '<h1 class="firstHeading">Richmond, VA</h1>' +
+        '<div id="bodyContent">' +
+        "<p>At SmoothStack, I worked as a Full-Stack Java Developer, gaining hands-on experience with Java, Spring Boot, and AWS. I contributed to building scalable applications, implementing RESTful APIs, and working with databases like PostgreSQL. Additionally, I collaborated in an Agile environment, solving complex software challenges and honing my skills in both backend and frontend development.</p>" +
         "</div>" +
         "</div>"
 
@@ -89,7 +97,8 @@ function initMap() {
         [51.51488717404907, -0.16452135455793698, 'London', './img/guard.png', uk],
         [35.61245631055736, 139.55384898812062, 'Tokyo', './img/tokyo-tower_1f5fc.png', tokyo],
         [37.59231728567572, 126.70598350328325, 'Seoul', './img/cup.png', korea],
-        [40.712776, -74.005974, 'New York', './img/statue-of-liberty.png', tutoria]
+        [40.712776, -74.005974, 'New York', './img/statue-of-liberty.png', tutoria],
+        [37.5407, -77.4360, 'Richmond', './img/classical-building.png', smoothstack]
     ]
 
     markers.forEach(place => {

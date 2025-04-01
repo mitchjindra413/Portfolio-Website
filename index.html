@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Work</a>
+            <a class="nav-link" href="#map-section">Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -48,66 +48,32 @@
           <h1>Software Engineer. Bringing Midwestern <span class='marker-highlight'>Values</span> with a Global <span class='marker-highlight'>Mindset</span>.</h1>
           <p class='lead mb-5'> </p>
 
-          <a target='_blank' href='https://www.linkedin.com/in/mitchell-jindra/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
+          <a target='_blank' href='https://www.linkedin.com/in/mitchell-jindra/' class='btn btn-primary m-2'><i class="bi-linkedin"></i> Connect on Linkedin</a>
           <!-- <a  target='_blank' href='https://calendly.com/morganjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-          <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-          <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+           <a href='#' class='btn btn-primary m-2'><i class="bi-download"></i> Download Resume</a>
+           <a href='mailto:jindra.mitch@gmail.com' class='btn btn-primary m-2'><i class="bi-envelope"></i> Send Email</a>
         </div>
       </div>
     </div>
   </header>
 
-  <section id='company' class='p-section'>
-    <div class='container text-center'>
-      <label class='sup mb-3 text-muted edu-emp'>Education and Employment History</label>
-
-      <div class='row row-cols-2 row-cols-md-5'>
-        
-          <div class='col d-flex align-items-center'>
-            <img src="img/University_of_Nebraska–Lincoln_logo.svg.png" >
-          </div>
-          <div class='col d-flex align-items-center'>
-            <img src="img/Senshu_Univ_logo.jpeg" >
-          </div>
-          <div class='col d-flex align-items-center'>
-            <img src="img/thameshudson-1.png">
-          </div>
-          <div class='col d-flex align-items-center'>
-            <img src="img/gec.jpg">
-          </div>
-          <div class='col offset-3 offset-md-0 d-flex align-items-center'>
-            <img src="img/tutoria.io.png">
-          </div>
-        
-      </div>
+  <section id="map-section" class="p-section">
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD16B4S_leJ1GytvmaWSRXWPorD0bTjod4&callback=initMap"
+            defer
+    ></script>
+    <script src="map.js"></script>
+    <div class="container">
+      <sup>Career</sup>
+      <h2 class='mb-5 underline'>Explore My Career</h2>
+      <div id="map"></div>
     </div>
   </section>
 
   <section id='portfolio' class='p-section bg-light'>
     <div class='container'>
       <sup>Portfolio</sup>
-      <!-- <h2 class='mb-5 underline'>Experience</h2>
-
-      <div class='row mb-5'>
-        <div class='card h-100'>
-          <div class='background-image' style='background-image: url(img/breeze.png)'>
-            <img src='img/spacer-portrait.png'>
-          </div>
-          <div class='card-body'>
-
-            <h3>Breezebnb</h3>
-            <p class='mb-3'>A fullstack clone of popular vacation rental site Airbnb. Make and manage reservations across the Bay and Greater London areas. (Psst we're looking to expand) Key technologies used include: React.js, Ruby on Rails, GoogleMaps, Amazon Web Services, PostgreSQL.</p>
-            
-          </div>
-          <div class='card-footer'>
-            <a target='_blank' href='https://github.com/mitchjindra413/FullStack-Project' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-            <a target='_blank' href='https://breezebnb.onrender.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-            
-          </div>
-        </div>
-      </div> -->
-
-      <h2 class='mb-5 underline'>Featured Work</h2>
+      <h2 class='mb-5 underline'>Personal Projects</h2>
       <div class='row mb-5'>
         <div class='col-sm-4'>
           <div class='card h-100'>
@@ -181,22 +147,16 @@
 
           <ul class='text-center list-inline w-md ms-auto me-auto'>
             <li class='list-inline-item list-tech'>
-              React.js
+              React
             </li>
             <li class='list-inline-item list-tech'>
               Ruby on Rails
             </li>
             <li class='list-inline-item list-tech'>
-              React-Redux
-            </li>
-            <li class='list-inline-item list-tech'>
-              PostgreSQL
-            </li>
-            <li class='list-inline-item list-tech'>
               AWS
             </li>
             <li class='list-inline-item list-tech'>
-              Express.js
+              Spring Boot
             </li>
             <li class='list-inline-item list-tech'>
               MongoDB
@@ -205,7 +165,10 @@
               Node.js
             </li>
             <li class='list-inline-item list-tech'>
-              JavaScript
+              Java
+            </li>
+            <li class='list-inline-item list-tech'>
+              TypeScript
             </li>
             <li class='list-inline-item list-tech'>
               Ruby
@@ -215,18 +178,6 @@
             </li>
             <li class='list-inline-item list-tech'>
               SQL
-            </li>
-            <li class='list-inline-item list-tech'>
-              GoogleMaps
-            </li>
-            <li class='list-inline-item list-tech'>
-              jBuilder
-            </li>
-            <li class='list-inline-item list-tech'>
-              passport-jwt
-            </li>
-            <li class='list-inline-item list-tech'>
-              bcrypt
             </li>
           </ul>
         </div>
@@ -261,33 +212,23 @@
         <div class='col-sm-8'>
           <blockquote>Striving for improvement one line of code at a time.</blockquote>
 
-          <!-- <img src="img/github-activity.png" class='mb-3'> -->
-
-          <!-- <p class='lead'>Thought-filled software engineer and entrepreneur who understands that deliberate, <span class='marker-highlight'>consistent progress</span> over time is life's greatest growth strategy.</p> -->
-          <p class='lead'>I'm a full-stack software engineer with experience working with React, Redux, Rails, Express, and Node. Before I became
-          a software engineer, I received a degree in International Business: Finance and taught English In South Korea. As such,
-          it should be no surprise that I enjoy learning new topics and exploring other people's viewpoints. My most recent
-          projects include a clone of Airbnb using Ruby on Rails, PostgreSQL, and React and a dating app targeted towards people
-          in tech using MongoDB, Express, React, and Node.
+          <p class='lead'>I am a full-stack software engineer with experience in React, Redux, Rails, Express, Node, and Java with Spring Boot. I thrive on solving complex problems, building scalable solutions, and continuously learning new technologies.
           <br>
           <br>
-          One aspect I love most about being a software engineer is using my problem-solving and creativity to overcome complex
-          challenges. I also can have an idea and follow through with it, concluding with a working product that could be shared
-          and used by others.
+            I previously worked at Tutoria, an EdTech company where I developed tools to help people improve their English skills, and at SmoothStack, where I gained experience in backend development, cloud infrastructure, and full-stack engineering. My background in teaching and international business has shaped my ability to communicate effectively, adapt to new challenges, and approach problem-solving from multiple perspectives. What I love most about software engineering is the ability to take an idea, iterate on it, and turn it into something tangible that people can use. I enjoy working on collaborative teams, refining systems for efficiency, and writing clean, maintainable code.
           <br>
           <br>
           On a less serious note, I'm a huge movie and music fanatic (Spotify wrapped is my favorite time of year - probably why I
           made a personal version). I also love snowboarding! However, growing up on the flat plains of Nebraska has limited the
           number of times I've been able to practice. I've got left turns down, though right turns, not so much!</p>
           
-          <!-- <p class='lead mb-0'>Favorite Tools:</p>
-
+          <p class='lead mb-0'>Favorite Tools:</p>
           <ul class='lead'>
-            <li><span class='marker-highlight'>Ruby on Rails</span></li>
+            <li><span class='marker-highlight'>Spring Boot</span></li>
+            <li>Java</li>
             <li>Github</li>
-            <li>Heroku</li>
             <li>AWS</li>
-          </ul> -->
+          </ul>
 
           <div class='mt-5'>
             <a target='_blank' href='https://www.linkedin.com/in/mitchell-jindra/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
@@ -297,19 +238,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="map-section" class="p-section">
-    <script 
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD16B4S_leJ1GytvmaWSRXWPorD0bTjod4&callback=initMap"
-      defer
-    ></script>
-    <script src="map.js"></script>
-    <div class="container">
-      <sup>Career</sup>
-      <h2 class='mb-5 underline'>Explore My Career</h2>
-      <div id="map"></div>
     </div>
   </section>
 
@@ -365,80 +293,6 @@
     </div>
   </section> -->
 
-  <!-- <section class='bg-dark text-white section-inverse'>
-    <div class='container'>
-      <div class='bg-primary p-5 card'>
-        <h2 class='mb-5 text-center underline'>Shipping More Than Code</h2>
-        
-        <div class='row'>
-          <div class='col-sm-4'>
-            <h3><i class="bi-pen me-2"></i> Popular Writings</h3>
-            <ul>
-              <li>
-                <a target='_blank' href='https://www.morganjlopes.com/annual-reflection-framework/' class='text-white'>Annual Reflection Framework</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.morganjlopes.com/bringing-humanity-back-to-email/' class='text-white'>Bringing Humanity Back to Email</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.morganjlopes.com/work-life-harmony/' class='text-white'>Work Life Harmony</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://medium.com/tenrocket/web-and-mobile-app-sitemap-643b60b0343e' class='text-white'>Web and Mobile App Sitemap</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://medium.com/polar-notion/building-a-blueprint-for-your-idea-5acad1bfb6b7' class='text-white'>Building a Blueprint for your Idea</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://medium.com/polar-notion/how-to-launch-an-idea-in-1-month-398c54d116b9' class='text-white'>How to Launch an Idea in One Month</a>
-              </li>
-            </ul>
-          </div>
-          <div class='col-sm-4'>
-            <h3><i class="bi-megaphone me-2"></i> Podcast Interviews</h3>
-            <ul>
-              <li>
-                <a target='_blank' href='https://podcast.nonprofitmegaphone.com/622294/8188617-morgan-lopes-at-new-story' class='text-white'>Methods and Mindsets with CTO at New Story</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://shrimptankpodcast.com/ep-152-morgan-lopes-process-optimization/' class='text-white'>Process Optimization</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.iheart.com/podcast/269-the-second-mile-47831491/episode/1-3-creating-a-successful-human-centered-business-49175425/' class='text-white'>Creating a Human-Centered Business</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.audible.com/pd/Using-Tech-for-Good-Podcast/B098PXTJHW' class='text-white'>Using Tech for Good</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.audacy.com/podcasts/2-minute-talk-tips-23509/ep-129-medieval-times-to-ceo-with-morgan-lopes-96455297' class='text-white'>From Medieval Times to CEO</a>
-              </li>
-            </ul>
-          </div>
-          <div class='col-sm-4'>
-            <h3><i class="bi-tools me-2"></i> Resources</h3>
-            <ul>
-              <li>
-                <a target='_blank' href='https://www.codeschoolguide.com/book/' class='text-white'>Code School Book</a>
-              </li>
-              <li>
-                <a target='_blank' href='http://polarnotion.github.io/turntable/' class='text-white'>Turntable.js</a>
-              </li>
-              <li>
-                <a target='_blank' href='http://polarnotion.github.io/hamsterwheel' class='text-white'>Hamsterwheel.js</a>
-              </li>
-              <li>
-                <a target='_blank' href='http://polarnotion.github.io/scroll-plugin' class='text-white'>Scrollmptious.js</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://polarnotion.github.io/starwarsintro/' class='text-white'>StarWarsIntro.css</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section id='contact' class='p-section-lg bg-dark text-white'>
     <div class='container container-lg text-center'>
 
@@ -462,60 +316,6 @@
       </div>
     </div>
   </section>
-
-  <footer class='bg-black p-5 text-white'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-sm-6'>
-          <p>
-            Built on <a href='https://getbootstrap.com/' target='_blank' class='text-white'>Bootstrap</a> and Developed by <a href='https://www.morganjlopes.com/' target='_blank' class='text-white'>Morgan J Lopes</a>
-          </p>
-        </div>
-
-        <div class='col-sm-6'>
-          <ul class='list-inline float-end'>
-            <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://www.linkedin.com/in/mitchell-jindra/' target='_blank' class='text-light'>
-                <i class="bi-linkedin"></i>
-              </a>
-            </li>
-            <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://github.com/mitchjindra413' target='_blank' class='text-light'>
-                <i class="bi-github"></i>
-              </a>
-            </li>
-            <!-- <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://twitter.com/MorganJLopes' target='_blank' class='text-light'>
-                <i class="bi-twitter"></i>
-              </a>
-            </li> -->
-            <!-- <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://www.instagram.com/morganjlopes/' target='_blank' class='text-light'>
-                <i class="bi-instagram"></i>
-              </a>
-            </li> -->
-            <!-- <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://www.morganjlopes.com/' target='_blank' class='text-light'>
-                <i class="bi-rss"></i>
-              </a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- <div class="toast show position-fixed" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <strong class="me-auto">Pst, Checkout this Freebie!</strong>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      <p>My personal portfolio is actually a <a href='https://github.com/morganjlopes/portfolio-template' class='text-dark' target='_blank'>free, open-source portfolio</a> template I built for early-stage engineers.</p>
-
-      <a href='https://github.com/morganjlopes/portfolio-template' target='_blank' class='btn btn-outline-primary btn-sm'>Check it out!</a>
-    </div>
-  </div> -->
 
   <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
     <defs>
